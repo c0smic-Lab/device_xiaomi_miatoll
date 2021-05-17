@@ -137,12 +137,6 @@ on boot
     write /dev/stune/camera-daemon/schedtune.prefer_idle 1
     write /dev/stune/camera-daemon/schedtune.boost 0
 
-    chmod 0666 sys/devices/platform/soc/890000.i2c/i2c-1/1-005a/cali
-    chmod 0666 sys/devices/platform/soc/890000.i2c/i2c-1/1-005a/cali_save
-    chmod 0666 sys/devices/platform/soc/890000.i2c/i2c-1/1-005a/f0_save
-    chmod 0666 sys/devices/platform/soc/890000.i2c/i2c-1/1-005a/osc_save
-    chmod 0666 sys/devices/platform/soc/890000.i2c/i2c-1/1-005a/osc_cali
-
 # access permissions for fingerprint
     chown system system /sys/bus/platform/devices/soc/soc:fpc1020/irq
     chown system system /sys/bus/platform/devices/soc/soc:fpc1020/wakeup_enable
@@ -257,15 +251,6 @@ service nv_mac /vendor/bin/nv_mac
 on property:sys.boot_completed=1
 	start nv_mac
 #end
-
-service vibrator_calibration /vendor/bin/vibrator_calibration
-     class late_start
-     user system
-     group system
-     oneshot
-
-on property:sys.boot_completed=1
-	start vibrator_calibration
 
 service spdaemon /vendor/bin/spdaemon
     class core
