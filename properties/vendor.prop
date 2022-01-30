@@ -195,6 +195,10 @@ keyguard.no_require_sim=true
 # FS-verity
 ro.apk_verity.mode=2
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Keystore
 ro.hardware.keystore_desede=true
 
