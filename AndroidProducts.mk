@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_miatoll.mk
+    $(LOCAL_DIR)/lineage_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_miatoll-user \
-    pixys_miatoll-userdebug \
-    pixys_miatoll-eng
+    lineage_miatoll-user \
+    lineage_miatoll-userdebug \
+    lineage_miatoll-eng
