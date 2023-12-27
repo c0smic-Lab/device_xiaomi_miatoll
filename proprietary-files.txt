@@ -92,8 +92,11 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 
-# Audio FX modules (Spatial Audio) - from cheetah-user 13 230805.001 10316531 release-keys
-vendor/lib/soundfx/libspatialaudio.so|b26727b8887dad56f5e183f7145487c88bd2f065
+# Audio (Spatial) - from tangorpro-user-14-UQ1A.231205.015
+vendor/lib/soundfx/libspatialaudio.so|1903f9c98b38728970ddd12094fa15d96e9d2a5b
+vendor/lib/aoc_audio_stereo_spatializer.so|f443a38e4c5654966dbcc89673ade51c0e27eea3
+vendor/lib64/soundfx/libspatialaudio.so|0242ecf82a322d6654d859123d4dd221c3c2bf12
+vendor/lib64/aoc_audio_stereo_spatializer.so|45c5055d36c51e2756089ee3e4c02bc204b93402
 
 # Battery
 vendor/bin/batterysecret
