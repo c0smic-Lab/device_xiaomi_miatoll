@@ -2,6 +2,9 @@
 ro.hardware.camera=xiaomi
 ro.com.google.lens.oem_camera_package=com.android.camera
 
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
 # Incremental FS
 ro.incremental.enable=1
 

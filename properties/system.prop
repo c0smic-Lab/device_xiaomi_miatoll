@@ -29,9 +29,6 @@ debug.sf.enable_hwc_vds=1
 # DPM
 persist.vendor.dpm.feature=11
 
-# FUSE
-persist.sys.fuse.passthrough.enable=true
-
 #GBoard
 ro.com.google.ime.kb_pad_port_b=1
 
