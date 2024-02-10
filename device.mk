@@ -393,7 +393,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_sm6250
+    android.hardware.power-service-qti
 
 # Protobuf
 PRODUCT_PACKAGES += \
