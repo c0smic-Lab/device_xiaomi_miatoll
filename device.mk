@@ -393,7 +393,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-libperfmgr
+    android.hardware.power@1.3-service.xiaomi_sm6250
 
 # Protobuf
 PRODUCT_PACKAGES += \
@@ -444,8 +444,6 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/google/interfaces \
-    hardware/google/pixel \
     hardware/xiaomi
 
 # Shim
