@@ -135,6 +135,14 @@ ro.crypto.volume.options=::v2
 dalvik.vm.dex2oat64.enabled=true
 
 # Display
+debug.sdm.support_writeback=0
+debug.sf.auto_latch_unsignaled=0
+debug.sf.disable_client_composition_cache=1
+debug.sf.enable_gl_backpressure=1
+debug.sf.latch_unsignaled=1
+debug.sf.predict_hwc_composition_strategy=0
+debug.sf.treat_170m_as_sRGB=1
+ro.config.avoid_gfx_accel=true
 ro.surface_flinger.enable_frame_rate_override=false
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_wide_color_display=true
@@ -146,6 +154,7 @@ ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
+vendor.display.comp_mask=0
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
 vendor.display.disable_decimation=1
 vendor.display.disable_excl_rect=0
@@ -161,6 +170,7 @@ vendor.display.qdcm.disable_factory_mode=1
 vendor.display.qdcm.mode_combine=1
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
+vendor.gralloc.disable_ubwc=0
 
 # DRM
 drm.service.enabled=true
