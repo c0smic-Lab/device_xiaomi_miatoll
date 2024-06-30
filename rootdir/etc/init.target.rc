@@ -28,6 +28,8 @@
 #
 
 on early-init
+    setprop vendor.usb.product_string ${ro.product.vendor.model}
+
     # Disable EAS
     write /proc/sys/kernel/sched_energy_aware 0
 
